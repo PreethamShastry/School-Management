@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    background-color: rgb(13, 3, 64);
+    
+    
+}
+
+.logo {
+    /* background-color: black; */
+    margin-right: 100px;
+    
+    
+}
+.logo img{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 60px;
+    /* mix-blend-mode: multiply; */
+    transition: 1s;
+   
+
+}
+.logo img:hover{
+    transform: scale(1.2);
+    
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    /* background-color: yellow; */
+    justify-content: center;
+    
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navlist li{
+  padding: 25px 10px;
+  margin-inline: 80px;
+  font-size: 25px;
+  margin-top: 17px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(142, 65, 7);
+  
+  
+
+}
+
+
+
+#homee{
+    text-decoration: none;
+    color: rgb(142, 65, 7);
+    transition: 1s;
+
+}
+#homee:hover{
+    color: rgb(13, 3, 64);
+    background-color:rgb(142, 65, 7) ;
+    border-radius: 10px;
+    transform: scale(1.0);
+}
+#aboutt{
+    text-decoration: none;
+    color: rgb(142, 65, 7);
+    transition: 1s;
+
+}
+#aboutt:hover{
+    color: rgb(13, 3, 64);
+    background-color:rgb(142, 65, 7) ;
+    border-radius: 10px;
+    transform: scale(1.0);
+}
+#addd{
+    text-decoration: none;
+    color: rgb(142, 65, 7);
+    transition: 1s;
+
+}
+#addd:hover{
+    color: rgb(13, 3, 64);
+    background-color:rgb(142, 65, 7) ;
+    border-radius: 10px;
+    transform: scale(1.0);
+}
+#signn{
+    text-decoration: none;
+    color: rgb(142, 65, 7);
+    transition: 1s;
+
+}
+#signn:hover{
+    color: rgb(13, 3, 64);
+    background-color:rgb(142, 65, 7) ;
+    border-radius: 10px;
+    transform: scale(1.0);
+}
+
+.parts{
+    display: flex;
+    background-image: url('https://i0.wp.com/www.pjfiala.com/wp-content/uploads/2017/02/Reading-a-book-under-a-tree.jpg?fit=4626%2C3231');
+    background-size: cover;
+    height: 100vh;
+}
+
+.part1{
+    
+    width: 40%;
+    height: 75vh;
+    /* background-color: blue; */
+    
+}
+.part2{
+    /* background-color: brown; */
+    width: 60%;
+    
+}
+ .school{
+   margin: 15%;
+ 
+   
+}
+.school img{
+    width:105%;
+    border-radius: 15px;
+    height: 50vh;
+    box-shadow: inset;
+    
+} 
+.part2 h1{
+    text-align: center;
+    padding-top: 20%;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 45px;
+    justify-content: space-around;
+    color: rgb(142, 65, 7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 23px;
+}
+#p1{
+    margin-top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 5px;
+    color:whitesmoke ;
+}
+#p2{
+    margin-top: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke ;
+}   
+#p3{
+    margin-top: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke ;
+}
+.principart{
+    display: flex;
+}
+.princiimg{
+    width:35%;
+
+    height: 90vh;
+    
+}
+.princiimg img{
+    width:70%;
+    margin-top:30%;
+    padding-left: 90px;
+    transition: 1s;
+    
+}
+.princiimg img:hover{
+    transform: scale(1.1);
+
+}
+#prof{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 18px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:rgb(142, 65, 7) ;
+}
+.pricitxt{
+    width:65%;
+    
+}
+.pricitxt h1{
+    margin-top: 20px;
+    color: rgb(142, 65, 7);
+}
+#pp1{
+        margin-top: 70px;
+        font-size: 25px;
+        padding-left:15px ;
+        font-family: cursive;
+}
+#pp2{
+      text-align: right;
+      padding-right: 25px;
+      font-size: 18px;
+      font-family: cursive;
+      margin-top: 15px;
+}
+#pp3{
+        margin-top: 30px;
+        font-size: 25px;
+        padding-left: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 450;
+}
+.contact{
+    display:flex
+}
+.address{
+    background-color:rgb(13, 3, 64);;
+    height: 45vh;
+    width:29%;
+    
+}
+.phone{
+    background-color: rgb(13, 3, 64);
+    height: 45vh;
+    width:33%;
+}
+.mail{
+    background-color: rgb(13, 3, 64);
+    height: 45vh;
+    width:33%;
+}
+.social{
+    background-color: rgb(13, 3, 64);
+    height: 45vh;
+    width:33%;
+}
+.address h3{
+    margin-left: 10px;
+    width: 150px;
+    border-bottom: 2px solid rgb(142, 65, 7);
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(142, 65, 7);
+   
+}
+.phone h3{
+       margin-left: 18px;
+    width: 115px;
+    border-bottom: 2px solid rgb(142, 65, 7);
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(142, 65, 7);
+}
+.mail h3{
+       margin-left: 10px;
+    width: 115px;
+    border-bottom: 2px solid rgb(142, 65, 7);
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(142, 65, 7);
+}
+.social h3{
+           margin-left: 10px;
+    width: 125px;
+    border-bottom: 2px solid rgb(142, 65, 7);
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(142, 65, 7);
+}
+.address p{
+    color: gray;
+}
+.phone p{
+    color: gray;
+}
+.mail p{
+    color: gray;
+}
+.social p{
+    color: gray;
+}
+#ap1{
+    padding-top: 50px;
+        margin-left: 15px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+#ap2{
+    margin-left: 15px;
+    padding-top: 8px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ap3{
+    margin-left: 15px;
+    padding-top: 8px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ph1{
+        padding-top: 50px;
+        margin-left: 25px;
+        font-size: 22px;
+        font-weight: 500;
+}
+#ph2{
+        padding-top: 12px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#ph3{
+    padding-top: 12px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#mp1{
+    padding-top: 50px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#mp2{
+    margin-left: 25px;    
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+#mp3{
+    margin-left: 25px;   
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+#mp4{
+        margin-left: 25px;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 15px;
+}
+.contact{
+    border-bottom: 1px solid gray;
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(13, 3, 64);
+    color: gray;
+}

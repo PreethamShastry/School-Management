@@ -1,0 +1,112 @@
+*{
+    padding:0px;
+   
+}
+.studentform{
+   
+    color: rgb(142, 65, 7);
+}
+.studentform h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.stdform img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    
+}
+.studentform{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.stdform{
+    border: 5px solid rgb(142, 65, 7);
+    border-radius: 10px;
+    background-color: rgb(13, 3, 64);
+}
+.form{
+    margin-left: 150px;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.form input{
+    height: 4vh;
+    border: none;
+    box-shadow: 2px 2px 3px black ;
+    border-radius: 3px;
+    border-bottom: 3px solid rgb(142, 65, 7);
+    background-color: rgb(73, 73, 132);
+    
+}
+
+.form .sname{
+    margin-left: 150px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 3px solid rgb(142, 65, 7);
+    background-color: rgb(73, 73, 132);
+    
+}
+.form .dob{
+        margin-left: 76px;
+        width: 160px;
+}
+.form .fname{
+    margin-left: 65px;
+}
+.form .mname{
+    margin-left: 54px;
+}
+.form .ocf{
+    margin-left: 0px;
+}
+.form .phno{
+    margin-left: 105px;
+}
+.form .email{
+    margin-left: 138px;
+}
+.form .add{
+    margin-left: 115px;
+    
+    height: 90px;
+    width: 290px;
+    border-bottom: 3px solid rgb(142, 65, 7);
+    background-color: rgb(73, 73, 132);
+    box-shadow: 2px 2px 3px black ;
+    border-radius: 3px;
+}
+.form .quali{
+    margin-left: 54px;
+}
+.form .myFile{
+    margin-left: 48px;
+    margin-bottom: 50px;
+}
+
+.stdform button{
+    margin-left: 45%;
+    width: 190px;
+    height: 60px;
+    font-size: 25px;
+    background-color:rgb(142, 65, 7);
+    box-shadow: 2px 2px 4px black;
+    color:  rgb(13, 3, 64);
+    border: 2px solid rgb(142, 65, 7);
+
+    
+ }
+ .btn{
+    margin-bottom: 25px;
+    border-radius: 20px;
+    transition: 1s;
+
+ }
+ .btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(13, 3, 64);
+    color: rgb(142, 65, 7);
+ }

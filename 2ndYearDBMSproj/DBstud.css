@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bleownav{
+    background-color: rgb(13, 3, 64);
+    height: 10vh;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(142, 65, 7);
+    background-image: url('https://wallpaperaccess.com/full/824561.jpg');
+    background-size: cover;
+}
